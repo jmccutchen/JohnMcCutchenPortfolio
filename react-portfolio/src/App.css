@@ -1,0 +1,308 @@
+
+
+#myname {
+  text-shadow: 2px 1px black;
+  color: white;
+  font-weight: bold;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 35px;
+  width: auto;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  float: left;
+
+}
+
+.navStyle {
+  
+  text-shadow: 2px 1px black;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.mainhead:after {
+  content: '';
+  display: block;
+  clear:both;
+ 
+}
+
+#mainhead {
+  border-bottom-width: 15px !important;
+  border-bottom-color: #537ec5 !important;
+}
+
+.footer {
+  padding-top: 30px;
+  background-color: #293a80;
+  text-align: center;
+  color: #ffffff;
+  border-width: 15px !important;
+  border-top-color: #537ec5 !important;
+  
+}
+
+
+.border {
+ 
+  margin: auto;
+  width: 1100px;
+  padding: 20px;
+  border: 2px solid #010038;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+  background-color: #ffffff;
+}
+
+.mainsection {
+  background-image: url(./images/books.jpg); /*Photo by Eugenio Mazzone on Unsplash */
+  /* color: #010038; */
+  border: solid 2px #f39422;
+  background-size: cover;
+
+}
+
+.sectionhead {
+  padding: 15px 15px 15px 0px;
+  border-bottom: 2px solid #010038;
+  font-family: 'Georgia', 'Times', 'Times New Roman', serif;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-style: italic;
+  text-align: center;
+  
+}
+
+.contStyle {
+  border: solid 1px #010038;
+  background-color: rgb(246, 249, 252);
+}
+
+#profilepic{
+  float: left;
+  width: 150px;
+  height: 180px;
+  margin: 5px 10px 5px 0px;
+}
+
+.description {
+  float: left;
+  /* line-height: 20px; */
+}
+
+.content:after{
+  content: "";
+  display: block;
+  clear: both;
+  
+}
+
+
+
+#fullname {
+  width: 100%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+}
+
+#email {
+  width: 100%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+}
+
+#message {
+  width: 100%;
+  padding: 10px 20px 200px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+input[type=submit] {
+  width: 200px;
+  background-color: #4aaaa5;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #41f14a;
+}
+
+form {
+  margin-top: 10px;
+}
+
+.ports{
+  display: block;
+  width: 300px;
+  height: 250px;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding: 5px 0px 5px 20px;
+  
+ 
+}
+
+.label {
+  width: 100%;
+  padding: 5px 0px 5px 20px;
+  background-color: #537ec5;
+  border: solid 2px #f39422;
+  text-shadow: 1px 1px black;
+  text-align: center;
+  font-weight: bold;
+  margin: 25px 15px 25px 40px;
+  border-radius: 25px;
+  
+}
+
+/* handles the transition cards on Portfolio page, much credit to https://www.youtube.com/watch?v=avdjKAN9P-o Online Tutorials */
+.content {
+  font-family: 'Poppins', sans-serif;
+}
+
+.cssCard {
+  position: relative;
+  width: 400px;
+  height: 400px;
+
+}
+
+.cssCard .picCar {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: #000;
+}
+
+.cssCard .picCar.car1 img {
+  width: 400px;
+  height: 300px;
+  border-radius: 15px;
+}
+
+.cssCard .picCar.car1 {
+  top: 0;
+  left: 0;
+  transition-property: left, z-index, transform;
+  transition-delay: 0s, .5s, .5s;
+  transition-duration: .5s, 0s, .5s;
+  z-index: 2;
+  transform: translate(-10px, -10px);
+  width: 400px;
+  height: 300px;
+  border-radius: 15px;
+
+}
+
+.cssCard:hover .picCar.car1 {
+  transition-property: transform, z-index, left;
+  transition-delay: 0s, .5s, .5s;
+  transition-duration: .5s, 0s, .5s;
+  transform: translate(170px, -10px);
+  z-index: 1;
+  left: -160px;
+}
+
+.cssCard .picCar.car2 {
+  background: #111;
+  top: 10px;
+  left: 10px;
+  transition-property: left, z-index, transform;
+  transition-delay: 0s, .5s, .5s;
+  transition-duration: .5s, 0s, .5s;
+  z-index: 1;
+  transform: translate(-10px, -10px);
+  width: 400px;
+  height: 300px;
+  border-radius: 15px;
+}
+
+.cssCard:hover .picCar.car2 {
+  transition-property: transform, z-index, left;
+  transition-delay: 0s, .5s, .5s;
+  transition-duration: .5s, 0s, .5s;
+  transform: translate(-160px);
+  z-index: 2;
+  left: 160px;
+ 
+}
+
+.cssCard .picCar.car2 content {
+  padding: 20px;
+  box-sizing: border-box;
+  
+}
+
+.cssCard .picCar.car2 content h1 {
+  margin: 0;
+  padding: 5px;
+  
+}
+
+.cssCard .picCar.car2 content p {
+  margin: 10px 0 0;
+  padding: 0;
+}
+
+/* ====================end portfolio cards==================================== */
+
+.checkIt {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 15px; 
+  font-size: 15px;
+  
+}
+
+.buttonLabel {
+  display: block;
+  margin: 0px 20px 0px 20px;
+  width: 300px;
+  height: auto;
+}
+
+.label:hover {
+  background-color: #f39422;
+}
+
+#deetsDash {
+max-height: 100%;
+max-width: 100%;
+justify-content: center;
+
+}
+
+
+#dayPlanner {
+max-height: 100%;
+max-width: 100%;
+}
+
+
+.clearfix:after {
+  content: '';
+  display: block;
+  clear:both;
+}
+
